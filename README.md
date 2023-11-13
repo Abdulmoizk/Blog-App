@@ -1,2 +1,2 @@
 # Blog-App
- Blog app assignment no 12
+(https://blogappmoiz.netlify.app/)https://blogappmoiz.netlify.app/
