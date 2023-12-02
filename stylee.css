@@ -2,43 +2,35 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
-    margin: 0;
+    margin: 0px;
     background-image: url(images/diagonal-grayscale-abstract-background-decorated-with-dots-horizontal-image_49459-649.avif);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
-.navbar{
-    background-color: #E6E6E6;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+.main{
+    margin-top: 50px;
 }
-.login{
-    width: 100%;
-    position: relative;
+.main h1{
+    text-align: center;
 }
-.mmm{
-    margin: 100px auto;
+.mmmm{
+    padding: 25px;
     border: none;
     border-radius: 30px;
-    padding: 30px ;
-    font-weight: bold;
-    height: 350px;
-    box-shadow:  rgba(100, 100, 111, 0.8) 0px 7px 29px 0px; ;
+    box-shadow:  rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+    margin: 100px auto;
 }
-.bttn{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    
+.boxend{display: flex;
+    flex-direction: column;
+    margin-top: 10px;
 }
 .btn{
-    width: 30%;
     border: none;
     margin-left: 10px;
     font-weight: bold;
     border-radius: 5px;
-    background-color: #E6E6E6;
+    background-color: #464646   ;
     
 }
 .btn>a{
