@@ -66,10 +66,12 @@ function submitt() {
             title: "Name should'nt be empty!!!"
         });
     } else if (email.value === "") {
+
         Swal.fire({
             icon: "error",
             title: "Email should'nt be empty!!!"
         });
+
     } else if (confirmEmail.value !== email.value) {
         Swal.fire({
             icon: "error",
@@ -146,45 +148,17 @@ function logout(){
 }
 
 
-// function submit(){
-// var email = document.getElementById("email");
-// var password = document.getElementById("password");
-// var data = JSON.parse(localStorage.getItem("username"));
 
-
-
-// console.log(data)
-// }
-
-
-// if (data === null) {
-//     Swal.fire({
-//         icon: "error",
-//         title: "User Not Found!!!"
-//     });
-
-//     setTimeout(() => {
-//         window.location.href = "./signup.html"
-//     }, 2000)
-
-// }
-
-
-// for (var i = 0; i < data.length; i++) {
-//     if (email.value !== data[i].email && password.value !== data[i].password) {
-//         Swal.fire({
-//             icon: "error",
-//             title: "User not found!!!"
-//         });
-//     } else {
-//         Swal.fire({
-//             title: "You have successfully login!",
-//             icon: "success"
-//         });
-
-//         setTimeout(() => {
-//             window.location.href = "./signup.html"
-//         }, 2000)
-
-//     }
-// }
+function postingCard() {
+    var card = document.getElementById("carrd");
+    var title = document.getElementById("title");
+    var description = document.getElementById("description");
+    card.innerHTML += `    
+     <div class="card mt-3 mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">${title.value}</h3>
+                    <p class="card-text">${description.value}</p>
+                </div>
+            </div>
+    `
+}

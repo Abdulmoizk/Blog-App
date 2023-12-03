@@ -1,53 +1,36 @@
-*{
+* {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-body{
+
+body {
     margin: 0;
     background-image: url(images/diagonal-grayscale-abstract-background-decorated-with-dots-horizontal-image_49459-649.avif);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.miandiv{
-    margin-top: 30px;
- 
+
+.miandiv {
+   margin: 100px auto;
+       padding: 20px;
+    width: 100%;
+
 }
-.carddd{
-    margin-left: 20px;
-    margin-bottom: 20px;
+.userdiv{
+    
+    margin: 0 auto;
     padding: 20px;
 }
 
+.carddiv {
+    position: relative;
+   
+    margin: 0 auto;
+}
+.card-titlee{
+    background-color: rgb(100, 100, 111);
+    padding: 5px;
+    color: aliceblue;
+    border-radius: 50px;
+    text-align: center;
+}
 
-/* 
-if(data === null ) {
-    Swal.fire({
-        icon: "error",
-        title: "User Not Found!!!"
-    });
-
-    setTimeout(()=>{
-        window.location.href="./signup.html"
-    }, 2000)
-
-   }
-   else {
-    for (var i = 0; i < data.length; i++) {
-       if (email.value !== data[i].email && password.value !== data[i].password){
-        Swal.fire({
-            icon: "error",
-            title: "User not found!!!"
-        });
-       } else {
-        Swal.fire({
-            title: "You have successfully login!",
-            icon: "success"
-        });
-
-        setTimeout(()=>{
-            window.location.href="./signup.html"
-        }, 2000)
-
-       }
-    }}
-
-} */
